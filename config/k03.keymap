@@ -75,9 +75,9 @@
         nwn {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &kp Q   &kp W   &kp E   &trans                    &trans  &trans  &kp I   &trans   &trans   &trans
+&trans  &trans  &kp Q   &kp W   &kp E   &kp R                     &trans  &trans  &kp I   &trans   &trans   &trans
 &trans  &trans  &kp A   &kp S   &kp D   &trans                    &trans  &kp J   &kp K   &kp L    &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp M   &trans  &trans   &trans   &trans
                 &trans  &trans  &trans  &trans  &trans    &to 0   &trans  &trans  &trans  &trans
             >;
         };
