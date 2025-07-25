@@ -74,11 +74,11 @@
 
         nwn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &kp Q   &kp W   &kp E   &kp R                     &trans  &trans  &kp I   &trans   &trans   &trans
-&trans  &trans  &kp A   &kp S   &kp D   &trans                    &trans  &kp J   &kp K   &kp L    &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp M   &trans  &trans   &trans   &trans
-                &trans  &trans  &trans  &trans  &trans    &to 0   &trans  &trans  &trans  &trans
+&none           &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &kp N6  &kp RU_N7  &kp N8   &kp N9   &kp N0  &none
+&kp ESC         &kp M   &kp Q         &kp W         &kp E         &kp R                          &kp F1  &kp F2     &kp F3   &kp F4   &none   &none
+&kp TAB         &kp C   &kp A         &kp S         &kp D         &kp J                          &kp F5  &kp F6     &kp F7   &kp F8   &none   &none
+&kp LEFT_SHIFT  &kp I   &none         &none         &none         &kp B         &none     &none  &kp F9  &kp F10    &kp F11  &kp F12  &none   &none
+                        &trans        &trans        &trans        &trans        &trans    &to 0  &trans  &trans     &trans   &trans
             >;
         };
     };
