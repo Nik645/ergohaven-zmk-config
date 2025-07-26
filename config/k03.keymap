@@ -48,11 +48,11 @@
             display-name = "Navigation";
             sensor-bindings =
                 <&enc_vol>,
-                <&inc_dec_kp LEFT RIGHT>,
+                <&inc_dec_kp RIGHT LEFT>,
                 <&enc_vol>,
-                <&inc_dec_kp LEFT RIGHT>,
+                <&inc_dec_kp RIGHT LEFT>,
                 <&enc_vol>,
-                <&inc_dec_kp LEFT RIGHT>;
+                <&inc_dec_kp RIGHT LEFT>;
         };
 
         sym {
@@ -68,7 +68,7 @@
             sensor-bindings =
                 <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
                 <&enc_vol>,
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
+                <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>,
                 <&enc_vol>,
                 <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
                 <&enc_vol>;
